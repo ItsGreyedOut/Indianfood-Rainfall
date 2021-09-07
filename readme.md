@@ -4,7 +4,7 @@ Project 2
 Topic:  Indian Food Recipes
 
 Dataset 1: https://www.kaggle.com/nehaprabhavalkar/indian-food-101 
-Dataset https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
+Dataset 2: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
 
 Database:  Postgres  
 
