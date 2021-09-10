@@ -3,6 +3,11 @@ Project 2:  https://github.com/ItsGreyedOut/Project-2
 
 Topic:  Indian Food Recipes & rainfall
 
+# Give relevant and succinct description of findings (2 - 3 sentences) 20 point proficiency
+Description of findings:
+We calculated the course types by state.
+We will provide how many recipes have used certain ingredients. 
+
 # Datasets used
 Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
 Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
@@ -28,7 +33,4 @@ The state codes.xlsx file from the dataset 1 was cleaned within excel by correct
 
 
 
-# Give relevant and succinct description of findings (2 - 3 sentences) 20 point proficiency
-Description of findings:
-We calculated the course types by state.
-We will provide how many recipes have used certain ingredients. 
+
