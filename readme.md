@@ -17,7 +17,7 @@ Indian_Food_Cuisine.csv
 State Codes.xlsx
 rainfall in india 1901-2015-Filtered.csv
 
-# Join & data cleanup
+# Data join & data cleanup conducted with Jupyter Notebook
 rainfall_in_india.ipynb
 
 # Type of production database to load the data into (relational or non-relational)
