@@ -7,6 +7,14 @@ Topic:  Indian Food Recipes & rainfall
 Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
 Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
 
+# Files used from datasets
+Indian_Food_Cuisine.csv
+State Codes.xlsx
+rainfall in india 1901-2015-Filtered.csv
+
+# Join & data cleanup
+rainfall_in_india.ipynb
+
 # Type of production database to load the data into (relational or non-relational)
 Database type:  Postgres  
 
