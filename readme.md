@@ -50,7 +50,7 @@ The database was used to do futher analyse the data.  We merged both tables data
 
 # Description of findings:
 Description of findings:
-The four unique meal coures in the dataset which are main course, snack, starter, and dessert.  North and West India consume the most dairy.  A screeen shot called "Max_Dairy_Products.png" captures that within the database.  North East India consumes the most meat according to the dataset. The top five states with the highest rainfall that have the average spicy recipe orders are Kerala, Negaland, Goa, Karnataka, and Assam.  Within each region the dataset contains the following number of spicy receipes, South has 22, West has 41, North has 33, East has 6, North East has 13, and Eentral has two.  Also for each region the sweet receipes are strarting with the South is 14, North East 7, Central has 1, West has 23, North has 10, and East has 16.  
+The four unique meal coures in the dataset are the main course, snack, starter, and dessert.  North and West India consumes the most dairy.  North East India consumes the most meat according to the dataset. The top five states with the highest rainfall that have the average spicy recipe orders are Kerala, Negaland, Goa, Karnataka, and Assam.  Within each region the dataset contains the following number of spicy receipes, South has 22, West has 41, North has 33, East has 6, North East has 13, and Eentral has two.  Also for each region the sweet receipes are strarting with the South is 14, North East 7, Central has 1, West has 23, North has 10, and East has 16.  
 
 
 
