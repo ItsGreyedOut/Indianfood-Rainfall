@@ -38,7 +38,7 @@ Next, we read the state codes excel file and merged the file with the indian_foo
 Last using SQLAlchemy we created tables for both datasets Postgres SQL.  We created a join table in postgres.  
 
 
-# Files used from Datasets
+# Files used from datasets
 Indian_Food_Cuisine.csv, State Codes.xlsx, and rainfall in india 1901-2015-Filtered.csv
 
 
@@ -54,7 +54,7 @@ The database was used to do futher analyse the data.  We merged both tables data
 
 # Description of Findings
 Description of findings:
-There are ____ meal types by state.  There are _____ recipes that have used certain ingredients like rice, sugar, and milk in the state of Maharashtra. The data shows that there are ____ diet types per state.  Within each region there are ____ receipes that are spicy.  The top five states with the highest rainfall in 2015 are ____, ____,_____, _____, and ______.   Within the areas that have the hightest rainfall, the average number of spicy receip orders was ____.  Last the ingrediece used in the areas with the least rainfall or driest land were _________.
+There are ____ meal types by state.  There are _____ recipes that have used certain ingredients like rice, sugar, and milk in the state of Maharashtra. The data shows that there are ____ diet types per state.  Within each region there are ____ receipes that are spicy.  The top five states with the highest rainfall in 2015 are ____, ____,_____, _____, and ______.   Within the areas that have the hightest rainfall, the average number of spicy receip orders was ____.  Lastly the ingredients used in the areas with the least rainfall or driest land were _________.
 
 
 
