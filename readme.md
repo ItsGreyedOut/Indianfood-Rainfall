@@ -36,7 +36,7 @@ Database type:  Postgres
 
 The database was used to do futher analyse the data.  First, we cleaned up the flavor_profile removing unneeded data to clean it.  We used a SQL query to calculate the total meals by state.  Next, we moved on to gathering distinc courses of food by the state of Maharashtra.  Afterwards we researched how many diet types were found per state, how many receipes by region and the top five states that had the highest rainfall in 2015.  Then we analysed the coorliation between food and rainfall by finding the averate number of spicy receipe orders with the highest rainfall.  Then as a contrast, we used the dataset to provide the ingrdients that was used the most in the areas with the least rainfall.
 
-<img align="left" alt="ItsGreyedOut's Github Stats" src="https://github-readme-stats.vercel.app/api?username=itsgreyedout&show_icons=true&hide_border=true" />
+
 
 
 
