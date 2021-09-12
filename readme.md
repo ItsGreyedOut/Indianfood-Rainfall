@@ -19,9 +19,8 @@ A Case Study of Extract, Transform, Load
 ![alt text](http://github.com/itsgreyedout/project-2/blob/master/images/indianfood2.png?raw=true)
 
 # Extraction:
-Data files used to extract the data from are csv files and are extracted using Python, Pandas in Jupyter notebook. 
+Data files were used to extract the data from the Excel csv files.   They were extracted using Python and Pandas within Jupyter notebook. 
 
-Below are the links to the Datasets used.
 
 # Datasets used:
 Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
@@ -30,7 +29,7 @@ Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india
 
 
 # Transformation:
-The state codes.xlsx file from the dataset 1 was cleaned within excel by correcting the state names.  Next the Juypter Notebook file, rainfall_in_india.ipynb was created to clean the reset of the data and analyse the data.  The dataset 2 file "rainfall in india 1901-2015-FILTERED.csv" was used to see the rainfall in the states of the country of India.  We did a sort to see the 2015 rainfall.  The rainfall for 2015 and the maximum rainfall was 2904.6 mm.  Next, we viewed the indian food recipes by creating a dataframe pointing to the Indian_Food_Cuisine.csv.  The dataframes created using the two files were merged on state doing a right inner join.  
+The state codes.xlsx file from the dataset 1 was cleaned within excel by correcting the state names.  Next the Juypter Notebook file, rainfall_in_india.ipynb was created to clean the reset of the data and analyse the data.  The dataset 2 file "rainfall in india 1901-2015-FILTERED.csv" was used to see the rainfall in the states of the country of India.  We filted the data to show only the 2015 rainfall for India.  The rainfall for 2015 and the maximum rainfall was 3106 mm in the state of Karantaka.  Afterwards we dropped all other columns minus subdivision and annual to fine tune our results.  Next, we viewed the Indian food recipes by creating a dataframe pointing to the Indian_Food_Cuisine.csv.  We corrected the columns by adjusting to uppercase on the state column for consistancy.  The dataframes created using the two files were merged on state doing a right inner join.  
 
 After that, within the indian_food_codes_df, the duplicate "STATE" was dropped.  Within the same dataframe the State Code column was renamed.  The annual_rainfall_2015_codes_df and state_codes_df on "SUBDIVISION" and "STATE" data was merged.  Next the duplicate state name "SUBDIVISION" column was dropped.  The indian_food_rainfall_codes_df and annual_rainfall_2015_codes_df were joined on "State Code" and "TWO-LETTER CODE".  "STATE" and "TWO-LETTER columns were dropped from the indian_food_rainfall_codes_df.  The columns "ANNUAL" was renamed to "Annual Rainfall(mm)".  
 
