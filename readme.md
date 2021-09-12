@@ -2,9 +2,12 @@
 # Project 2:  https://github.com/ItsGreyedOut/Project-2 
 
 # Project 2 ✍️ Team members and links to their personal GitHub sites to review thier portfolios:
-Swapna https://github.com/Subbagari1985
-John https://github.com/johnclos 
-Grey https://github.com/ItsGreyedOut
+Swapna Subbagari -  https://github.com/Subbagari1985 
+
+John Clos -  https://github.com/johnclos 
+
+Grey Hardy -  https://github.com/ItsGreyedOut
+
 
 # Project 2 Description: 
 A Case Study of Extract, Transform, Load
