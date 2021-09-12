@@ -31,8 +31,10 @@ Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india
 # Transformation:
 The state codes.xlsx file from the dataset 1 was cleaned within excel by correcting the state names.  Next the Juypter Notebook file, rainfall_in_india.ipynb was created to clean the reset of the data and analyse the data.  The dataset 2 file "rainfall in india 1901-2015-FILTERED.csv" was used to see the rainfall in the states of the country of India.  We filted the data to show only the 2015 rainfall for India.  The rainfall for 2015 and the maximum rainfall was 3106 mm in the state of Karantaka.  Afterwards we dropped all other columns minus subdivision and annual to fine tune our results.  Next, we viewed the Indian food recipes by creating a dataframe pointing to the Indian_Food_Cuisine.csv.  We corrected the columns by adjusting to uppercase on the state column for consistancy.  The dataframes created using the two files were merged on state doing a right inner join.  
 
-Next, we read the state codes excel file and merged the file with the indian_food_df.  Then we dropped the duplicate state column.  We renamed the column names with both the rainfaill_df and the indian_food_df.  Last using SQLAlchemy we created tables for both datasets Postgres SQL.
+Next, we read the state codes excel file and merged the file with the indian_food_df.  Then we dropped the duplicate state column.  We renamed the column names with both the rainfaill_df and the indian_food_df.  
 
+# Loading Process using Postgres SQL
+Last using SQLAlchemy we created tables for both datasets Postgres SQL.
 
 # Files used from Datasets
 Indian_Food_Cuisine.csv, State Codes.xlsx, and rainfall in india 1901-2015-Filtered.csv
