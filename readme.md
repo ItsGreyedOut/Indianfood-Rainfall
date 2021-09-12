@@ -1,15 +1,26 @@
-GT Bootcamp
-Project 2:  https://github.com/ItsGreyedOut/Project-2 
+# GT Bootcamp
+# Project 2:  https://github.com/ItsGreyedOut/Project-2 
 
-Topic:  Indian Food Recipes & rainfall
+# Project 2 Team member and links to their personal GitHub sites to review thier portfolios:
+Swapna https://github.com/Subbagari1985
+John https://github.com/johnclos 
+Grey https://github.com/ItsGreyedOut
+
+# Project 2 Description: 
+A Case Study of Extract, Transform, Load
+
+# Topic:  
+The coorlation of Indian food recipes and rainfall.
+
+# Datasets used:
+Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
+Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
+
 
 # Give relevant and succinct description of findings (2 - 3 sentences) 20 point proficiency
 Description of findings:
 There are ____ meal types by state.  There are _____ recipes that have used certain ingredients like rice, sugar, and milk in the state of Maharashtra. The data shows that there are ____ diet types per state.  Within each region there are ____ receipes that are spicy.  The top five states with the highest rainfall in 2015 are ____, ____,_____, _____, and ______.   Within the areas that have the hightest rainfall, the average number of spicy receip orders was ____.  Last the ingrediece used in the areas with the least rainfall or driest land were _________.
 
-# Datasets used
-Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
-Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
 
 # Files used from datasets
 Indian_Food_Cuisine.csv, State Codes.xlsx, and rainfall in india 1901-2015-Filtered.csv
