@@ -10,16 +10,23 @@ Grey Hardy -  https://github.com/ItsGreyedOut
 
 
 # Project 2 Description: 
+
 A Case Study of Extract, Transform, Load
 
-# 🧐 Topic:  The coorlation of Indian food recipes and rainfall.
+
+# 🧐 Topic:  The corelation of Indian food recipes and rainfall.
 
 ![alt text](http://github.com/itsgreyedout/project-2/blob/master/images/indianfood2.png?raw=true)
+# Extraction:
+Data files used to extract the data from are csv files and are extracted using Python, Pandas in Jupyter notebook. 
+
+Below are the links to the Datasets used.
 
 # Datasets used:
 Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
 Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
 
+# Transformation:
 
 # Description of Findings
 Description of findings:
