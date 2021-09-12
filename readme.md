@@ -42,10 +42,6 @@ Last using SQLAlchemy we created tables for both datasets Postgres SQL.  We crea
 Indian_Food_Cuisine.csv, State Codes.xlsx, and rainfall in india 1901-2015-Filtered.csv
 
 
-# Data join & data cleanup conducted with Jupyter Notebook:
-rainfall_in_india.ipynb
-
-
 # Type of database:
 Postgres database was used.
 
