@@ -12,7 +12,7 @@ A Case Study of Extract, Transform, Load
 # Topic:  
 The coorlation of Indian food recipes and rainfall.
 
-![alt text](http://github.com/itsgreyedout/project-2/images/indianfood.png?raw=true)
+![alt text](http://github.com/itsgreyedout/project-2/blob/master/images/indianfood.png?raw=true)
 
 # Datasets used:
 Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
