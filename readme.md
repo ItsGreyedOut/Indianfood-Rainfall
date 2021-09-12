@@ -1,7 +1,7 @@
 # GT Bootcamp
 # Project 2:  https://github.com/ItsGreyedOut/Project-2 
 
-# Project 2 Team member and links to their personal GitHub sites to review thier portfolios:
+# Project 2 ✍️ Team members and links to their personal GitHub sites to review thier portfolios:
 Swapna https://github.com/Subbagari1985
 John https://github.com/johnclos 
 Grey https://github.com/ItsGreyedOut
@@ -9,7 +9,7 @@ Grey https://github.com/ItsGreyedOut
 # Project 2 Description: 
 A Case Study of Extract, Transform, Load
 
-# Topic:  The coorlation of Indian food recipes and rainfall.
+# 🧐 Topic:  The coorlation of Indian food recipes and rainfall.
 
 ![alt text](http://github.com/itsgreyedout/project-2/blob/master/images/indianfood2.png?raw=true)
 
