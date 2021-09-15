@@ -8,53 +8,48 @@ John Clos -  https://github.com/johnclos
 
 Grey Hardy -  https://github.com/ItsGreyedOut
 
-
-# Project 2 Description: 
-
-A Case Study of Extract, Transform, Load
-
-
-# 🧐 Topic:  The corelation of Indian food recipes and rainfall.
+# 🧐 Topic:  The correlation of Indian food recipes and rainfall.
 
 ![alt text](http://github.com/itsgreyedout/project-2/blob/master/images/indianfood2.png?raw=true)
 
-# Extraction:
-Data files were used to extract the data from the Excel csv files.   They were extracted using Python and Pandas within Jupyter notebook. 
+# Project 2 Description: 
 
+India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich cultural heritage. India has 15 major languages among 28 states. Each state has its own way of living including the food they eat, meat consumption, Different flavors and recipes which refine the palate for most of us. Food consumption also depends on the weather in the state. 
+
+Let us do the ETL process and analyze the data to see if we can answer some of the questions like which part of India consumes more meat or dairy? What kind of flavors do the dry land states like the most? and so on.
 
 # Datasets used:
-Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering 
+Dataset 1: https://www.kaggle.com/sampannathapaliya/indian-fooddemographic-filtering
+Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india
+Dataset 3: State codes.xlsx
 
-Dataset 2: https://www.kaggle.com/rajanand/rainfall-in-india 
+# Extract, Transform and Load (ETL) Process:
+ETL is the process of Extracting data from the data files, Cleansing the data to improve data quality and Loading data into a target database.
+As part of this project, We analyzed the data and extracted the data from the CSV and excel files. Applied Transformations to cleanse the data using Python and Pandas in Jupyter. After the data is cleansed loaded the datafiles as tables into Postgre SQL.
 
+# Steps Involved in ETL process.
+•	Extracted the rainfall data file and Indian food data file that are in CSV format using pandas.
+•	Extracted the state codes from an excel file using pandas.
+•	Filtered the rainfall data to show the annual rainfall for all states only for the year 2015.
+•	Filtered the rest of the columns out from the rainfall dataframe except for the state and Annual rainfall.
+•	Converted the state column values to upper case letters since the state names in state codes dataframe are in upper case.
+•	Merged the Indian food and state codes information using pandas on state column to add the state codes to the Indian food dataframe.
+•	Merged the Rainfall information and state codes information using pandas on state column to add the state codes to the Rainfall dataframe.
+•	Dropped the duplicated state columns after the merge and renamed the columns appropriately.
+•	Inorder to load the data, Used SQL Alchemy to create an engine to connect to Postgre database.
+•	Converted the Indian food and Rainfall Databases to SQL and loaded them as tables in Postgre database.
+•	Once the loading of the data is complete, Joined the Indian food and state rainfall information using sql on state code column. Refer to Merging_Datasets_query.sql in the repository.
+•	Updated the data that did not have some values from ‘-1’ to ‘Not Available’.
+•	Once the final table is merged and loaded, used SQL queries to analyze the data and come up with interesting facts.
+•	As part of the analysis process, split the ingredients column into a separate table to query further and perform detailed analysis.
 
-# Transformation:
-The state codes.xlsx file from the dataset 1 was cleaned within excel by correcting the state names.  Next the Juypter Notebook file, rainfall_in_india.ipynb was created to clean the reset of the data and analyse the data.  The dataset 2 file "rainfall in india 1901-2015-FILTERED.csv" was used to see the rainfall in the states of the country of India.  We filted the data to show only the 2015 rainfall for India.  The rainfall for 2015 and the maximum rainfall was 3106 mm in the state of Karantaka.  Afterwards we dropped all other columns minus subdivision and annual to fine tune our results.  Next, we viewed the Indian food recipes by creating a dataframe pointing to the Indian_Food_Cuisine.csv.  We corrected the columns by adjusting to uppercase on the state column for consistancy.  The dataframes created using the two files were merged on state doing a right inner join.  
-
-Next, we read the state codes excel file and merged the file with the indian_food_df.  Then we dropped the duplicate state column.  We renamed the column names with both the rainfaill_df and the indian_food_df.  
-
-
-# Loading Process using Postgres SQL:
-Last using SQLAlchemy we created tables for both datasets Postgres SQL.  We created a join table in postgres.  
-
-
-# Files used from datasets:
-Indian_Food_Cuisine.csv, State Codes.xlsx, and rainfall in india 1901-2015-Filtered.csv
-
-
-# Type of database:
-Postgres database was used.
-
-The database was used to do futher analyse the data.  We merged both tables datasets using SQL JOIN statement.  We cleaned up the flavor_profile removing unneeded data to clean it.  We used a SQL query to calculate the total meals by state.  Next, we moved on to gathering distinct courses of food by the state of Maharashtra.  Afterwards we researched how many diet types were found per state, how many receipes by region and the top five states that had the highest rainfall in 2015.  Then we analysed the coorliation between food and rainfall by finding the averate number of spicy receipe orders with the highest rainfall.  Then as a contrast, we used the dataset to provide the ingrdients that was used the most in the areas with the least rainfall.
-
-
-# Description of findings:
-Description of findings:
-The four unique meal coures in the dataset are the main course, snack, starter, and dessert.  North and West India consumes the most dairy.  North East India consumes the most meat according to the dataset. The top five states with the highest rainfall that have the average spicy recipe orders are Kerala, Negaland, Goa, Karnataka, and Assam.  Within each region the dataset contains the following number of spicy receipes, South has 22, West has 41, North has 33, East has 6, North East has 13, and Eentral has two.  Also for each region the sweet receipes are strarting with the South is 14, North East 7, Central has 1, West has 23, North has 10, and East has 16.  Within the images folder screenshots are provided to see the SQL queries within the Postgres database.  
-
-
-
-
+# Analysis:
+•	Dataset consists of receipes that have unique list of flavors like sweet, spicy, sour and bitter among the unique list of meal types like Starter, main course, dessert and snack.
+•	Most of the sweets or desserts in India are made of Jaggery since it is a healthy substitute for sugar and as per the Datafile, Out of 68 dessert recipes, only 15 are made of sugar.
+•	Almost 50% of meat is consumed in NorthEastern part of India when compared with all the other regions.
+•	Dairy is most consumed in Northern and Western regions of India.
+•	Karnataka, Kerala, Assam, Goa and Nagaland are the states that had the most rainfall in 2015 and also have the highest number of orders for spicy recipes.
+•	Please refer to the screenshots for the results of the analysis in Images folder.
 
 
 
