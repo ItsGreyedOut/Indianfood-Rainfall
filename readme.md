@@ -1,5 +1,4 @@
-# GT Bootcamp
-# Project 2:  https://github.com/ItsGreyedOut/Project-2 
+# Indian Food Receipes and Rainfall
 
 # Project 2 ✍️ Team members and links to thier personal GitHub sites to review thier portfolios:
 Swapna Subbagari -  https://github.com/Subbagari1985 
